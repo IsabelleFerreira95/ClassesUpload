@@ -9,5 +9,6 @@ public class ScannerDemo1 {
         System.out.println("Please enter your name");
         String name = input.nextLine();//nextLine is used when we have to take sentences from the keyboard
         System.out.println("My name is "+name);
+
     }
 }
