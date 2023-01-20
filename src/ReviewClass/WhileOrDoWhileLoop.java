@@ -2,7 +2,7 @@ package ReviewClass;
 
 import java.util.Scanner;
 
-public class Review2 {
+public class WhileOrDoWhileLoop {
     public static void main(String[] args) {
          int a=1;
          while(a<=3){
@@ -21,9 +21,14 @@ public class Review2 {
              //if they understand-->you good move to array concept
 
              Scanner scanner=new Scanner(System.in);
-             System.out.println("Do you understand loops in java?");
+             String answer = scanner.nextLine();
+             do {
+                 System.out.println("Do you understand loops in java?");
 
-             String answer=scanner.nextLine();
+
+
+             }while (!answer.equalsIgnoreCase("yes"));
+
 
 
          }

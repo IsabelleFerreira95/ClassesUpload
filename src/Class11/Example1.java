@@ -1,6 +1,6 @@
 package Class11;
 
-public class Example {
+public class Example1 {
     public static void main(String[] args) {
         int[][] matrix={{10,20,30},
                         {45,55,66},
@@ -13,9 +13,20 @@ public class Example {
 
             //matrix[i].length the size of each 1D array
             for (int j = 0; j < matrix[i].length; j++) {
-                System.out.print(matrix[i][j]+" ");//it's print not prinln
+               // if (j%3!=0){
+                if (matrix[i][j]%2!=0){
+                    System.out.print(matrix[i][j]+" ");//it's print not prinln
+                }
+                System.out.println();
+                // foreach loop to print all the numbers from a 2D array
+                for (int[] arr:matrix){
+                    for (int number:arr){
+                        System.out.print(number+" ");
+                    }
+                    System.out.println();
+                }
             }
-            System.out.println();
+
 
 
 

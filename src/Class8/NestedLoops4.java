@@ -6,16 +6,16 @@ public class NestedLoops4 {
 
         for (int i = 0; i < 3; i++) { // outer for loop
 
-                if (i==1){
-                    System.out.println();
-                    continue;
-                }
+            if (i == 1) {
+                System.out.println();
+                continue;
             }
-            for (int i = 0; i < 5; i++) {
+        }
+        for (int i = 0; i < 5; i++) {
             System.out.print("*");
 
         }
         System.out.println();
-        }
     }
+}
 
