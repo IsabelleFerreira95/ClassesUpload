@@ -1,22 +1,19 @@
 package ReviewClass;
 
+import java.util.Scanner;
+
 public class Test3 {
     public static void main(String[] args) {
-        double discount;
-        char code = 'C' ;
 
-        switch ( code ) {
-            case 'A':
-                discount = 0.0;
+        String[] dup={"tiger","lion","wolf","frog","dog","cat","fox","lion","wolf"};
+        for (int i = 0; i < dup.length; i++) {
+            for (int j = i+ 1; j < dup.length; j++) {
+                if(dup[j].equals(dup[i])){
+                    System.out.println(dup[j]);
+                }
 
-            case 'B':
-                discount = 0.1;
+            }
 
-            case 'C':
-                discount = 0.2;
-
-            default:
-                discount = 0.3;
         }
     }
 }
