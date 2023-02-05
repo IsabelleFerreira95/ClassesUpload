@@ -9,7 +9,7 @@ public class Test {
 
         System.out.println(ba.accountNumber);
         System.out.println(ba.money);
-        //ba.transfer(); methods defined inside child class not available to the parent class
+        //ba.  transfer(); methods defined inside child class not available to the parent class
 
         System.out.println("  -- Creating an Object of Checking account");
 

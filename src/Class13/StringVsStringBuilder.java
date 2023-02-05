@@ -1,4 +1,4 @@
-package Classe13;
+package Class13;
 
 public class StringVsStringBuilder {
     public static void main(String[] args) {
